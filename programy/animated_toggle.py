@@ -83,7 +83,6 @@ class AnimatedToggle(QCheckBox):
         barRect.moveCenter(QPointF(contRect.center()))
         rounding = barRect.height() / 2
 
-        # the handle will move along this line
         trailLength = contRect.width() - 2 * handleRadius
 
         xPos = contRect.x() + handleRadius + trailLength * self._handle_position
@@ -118,11 +117,6 @@ class AnimatedToggle(QCheckBox):
 
     @handle_position.setter
     def handle_position(self, pos):
-        """change the property
-        we need to trigger QWidget.update() method, either by:
-            1- calling it here [ what we doing ].
-            2- connecting the QPropertyAnimation.valueChanged() signal to it.
-        """
         self._handle_position = pos
         self.update()
 

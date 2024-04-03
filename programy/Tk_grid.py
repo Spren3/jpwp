@@ -22,7 +22,6 @@ class GridExample(tk.Tk):
                 button.grid(row=i+1, column=j, padx=15, pady=10, sticky="nsew")  # Zmniejszenie odstępów między przyciskami
                 self.buttons.append(button)
 
-        # Ustawianie rozciągliwej siatki
         for i in range(3):
             self.grid_rowconfigure(i, weight=1)
         for j in range(3):

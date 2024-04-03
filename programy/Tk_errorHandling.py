@@ -19,8 +19,7 @@ class ErrorHandlingExample(tk.Tk):
 
     def generateError(self):
         try:
-            # Tutaj umieść kod, który może wygenerować błąd
-            # Na potrzeby przykładu rzućmy błąd ręcznie
+            # rzucamy jakis błąd ręcznie
             raise ValueError("Przykładowy błąd")
 
         except Exception as e:
