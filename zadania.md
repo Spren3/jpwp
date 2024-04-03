@@ -1,7 +1,7 @@
 Do prezentacji może przydać się dokumentacja Qt6, Tktinker.  <br />
 
 **Zadanie 1**  <br />
-Skopiuj/pobierz plik animatedtoggle.py i sam napisz funkcjonalność z slajdu o powiązaniu zdarzeń (ostatni przed bibliografią). <br />
+Skopiuj/pobierz plik [animatedtoggle.py](https://github.com/Spren3/jpwp/blob/main/programy/animated_toggle.py) i sam napisz funkcjonalność z slajdu o powiązaniu zdarzeń (ostatni przed bibliografią). <br />
 ***TIP***: Przyda ci się *.stateChanged.connect()* oraz metoda do zmiany stylu arkusza. 
 
 **Zadanie 2**  <br />
