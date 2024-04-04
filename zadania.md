@@ -12,4 +12,4 @@ Napisz własny program który będzie pełnił funkcję konwertera jednostek, *o
 ***TIP***: Przyda ci się *QHBoxLayout()*, *QLabel*, *QLineEdit()* i *QComboBox()*. 
 
 **Zadanie 4**  <br />
-Na podstawie [dokumentacji](https://www.riverbankcomputing.com/static/Docs/PyQt6/module_index.html#ref-module-index) i pokazanych przykładów napisz prosty kalkulator. Pomocny będzie kod z [Qt_grid](https://github.com/Spren3/jpwp/blob/main/programy/Qt_grid.py) oraz uwzględnienie **wyjątku dzielenia przez zero** które zaprezentowano w programie [obsługi błędów](https://github.com/Spren3/jpwp/blob/main/programy/Qt_errorHandling.py).
+Na podstawie [dokumentacji](https://www.riverbankcomputing.com/static/Docs/PyQt6/module_index.html#ref-module-index) i pokazanych przykładów napisz prosty kalkulator. Pomocny będzie kod z [Qt_grid](https://github.com/Spren3/jpwp/blob/main/programy/layout/Qt_grid.py) oraz uwzględnienie **wyjątku dzielenia przez zero** które zaprezentowano w programie [obsługi błędów](https://github.com/Spren3/jpwp/blob/main/programy/Qt_errorHandling.py).
